@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 
-class GetResultQuery{
+class GetResultQuery {
   String apiURL = "https://s.polarspetroll.repl.co/api?";
   String query;
   String queryType;
@@ -23,7 +23,7 @@ class GetResultQuery{
 
       return result;
     } else {
-      throw "Unable to retrieve posts.";
+      throw "Unable to retrieve data.";
     }
   }
 }

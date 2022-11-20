@@ -41,7 +41,9 @@ class _HomepageState extends State<Homepage> {
                             children: [
                               Container(
                                 decoration: const BoxDecoration(
-                                  borderRadius: BorderRadius.only(topLeft: Radius.circular(20.0), topRight: Radius.circular(20.0)),
+                                  borderRadius: BorderRadius.only(
+                                      topLeft: Radius.circular(20.0),
+                                      topRight: Radius.circular(20.0)),
                                   color: Colors.blue,
                                 ),
                                 child: const Center(
